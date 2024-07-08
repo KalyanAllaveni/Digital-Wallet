@@ -20,7 +20,7 @@ public class Emailsender {
                     .buildEmail();
             
         Mailer mailer=MailerBuilder
-        .withSMTPServer("smtp.gmail.com", 587,"kalyanallaveni003@gmail.com" ,"azvi utah okef obyv" ).buildMailer();
+        .withSMTPServer("smtp.gmail.com", 587,"kalyanallaveni003@gmail.com" ,"" ).buildMailer();
                     
         mailer.sendMail(email, true);
     }
